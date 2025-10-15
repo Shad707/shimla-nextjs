@@ -10,8 +10,8 @@ export default function Footer() {
         <div>
           <h2 className="text-xl font-bold text-white">SHIMLA SARL</h2>
           <p className="mt-3 text-sm text-gray-400 leading-relaxed">
-            Lubumbashi — Sécurité • Fiabilité • Performance. Votre partenaire de
-            confiance pour des solutions modernes et fiables.
+            Sécurité • Fiabilité • Performance. Votre partenaire de confiance
+            pour des solutions modernes et fiables.
           </p>
           <div className="mt-4 flex items-center gap-4 text-gray-400">
             <a

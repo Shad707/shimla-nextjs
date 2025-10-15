@@ -88,9 +88,11 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const images = [
-  "/images/project4.jpg",
+  "/images/project1.jpg",
   "/images/project2.jpg",
   "/images/project3.jpg",
+  "/images/project5.jpg",
+  "/images/project4.jpg",
 ];
 
 export default function WhyShimla() {
@@ -167,8 +169,7 @@ export default function WhyShimla() {
                   Interventions rapides
                 </h3>
                 <p className="text-gray-600">
-                  Un service réactif à Lubumbashi et dans les régions
-                  avoisinantes.
+                  Un service réactif partout en RDC.
                 </p>
               </div>
             </li>

@@ -46,7 +46,7 @@ export default function Contact() {
             </p>
             <p className="flex items-center gap-3">
               <MapPin className="w-5 h-5 text-shimlaBlue" />
-              Lubumbashi, République Démocratique du Congo
+              République Démocratique du Congo
             </p>
           </div>
         </div>

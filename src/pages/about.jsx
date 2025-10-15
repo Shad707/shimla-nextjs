@@ -1,19 +1,24 @@
+// File: src/app/about/page.jsx  (or wherever your About component lives)
 "use client";
 
 export default function About() {
   return (
     <div className="bg-gray-50">
       {/* Intro Section */}
-      <section className="container pt-28 pb-20">
+      <section
+        className="container pb-20"
+        // ensures spacing below a fixed nav; adjust --nav-height in your global CSS if needed
+        style={{ paddingTop: "calc(var(--nav-height, 72px) + 6px)" }}
+      >
         <h1 className="text-4xl font-bold text-shimlaBlue mb-6">
           Qui sommes-nous ?
         </h1>
         <p className="text-lg text-gray-700 max-w-3xl">
-          SHIMLA SARL est une entreprise de sous-traitance basée à Lubumbashi,
-          République Démocratique du Congo. Nous proposons des services en
-          installation et maintenance électrique, construction et fourniture
-          d’équipements. Notre engagement est d’offrir des solutions fiables et
-          conformes aux standards internationaux.
+          SHIMLA SARL est une entreprise de sous-traitance basée en République
+          Démocratique du Congo. Nous proposons des services en installation et
+          maintenance électrique, construction et fourniture d’équipements.
+          Notre engagement est d’offrir des solutions fiables et conformes aux
+          standards internationaux.
         </p>
       </section>
 
@@ -41,6 +46,10 @@ export default function About() {
               src="/images/project1.jpg"
               alt="Mission SHIMLA"
               className="rounded-2xl shadow-lg w-full h-72 object-cover"
+              loading="lazy"
+              decoding="async"
+              width="1200"
+              height="288"
             />
           </div>
         </div>
@@ -58,6 +67,10 @@ export default function About() {
               src="/images/project2.jpg"
               alt="Vision SHIMLA"
               className="rounded-2xl shadow-lg w-full h-72 object-cover"
+              loading="lazy"
+              decoding="async"
+              width="1200"
+              height="288"
             />
           </div>
           {/* Text */}

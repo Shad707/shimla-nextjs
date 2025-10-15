@@ -27,7 +27,7 @@ export default function Header() {
           <div>
             <h1 className="text-lg font-semibold">SHIMLA SARL</h1>
             <p className="text-sm text-gray-500">
-              Lubumbashi — Sécurité • Fiabilité • Performance
+              Sécurité • Fiabilité • Performance
             </p>
           </div>
         </Link>

@@ -7,12 +7,15 @@ export default function Home() {
     <>
       <Hero
         title="SHIMLA SARL – Sécurité, Fiabilité, Performance et Résultats Garantis"
-        subtitle="Basée à Lubumbashi, SHIMLA SARL propose des solutions en installation et maintenance électrique, construction et fourniture d’équipements. Nous réalisons des projets durables et conformes aux normes modernes."
+        subtitle="Basée en RDC, SHIMLA SARL propose des solutions en installation et maintenance électrique, construction et fourniture d’équipements. Nous réalisons des projets durables et conformes aux normes modernes."
         cta1="Découvrir nos services"
         cta2="Nous contacter"
       />
 
-      <section className="container py-12">
+      <section
+        className="container py-12"
+        style={{ paddingTop: "calc(var(--nav-height, 72px) + 6px)" }}
+      >
         <h2 className="text-2xl font-bold text-shimlaBlue">
           Nos services principaux
         </h2>
