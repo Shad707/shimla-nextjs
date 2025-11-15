@@ -54,7 +54,12 @@
 // }
 import Head from "next/head";
 import { motion } from "framer-motion";
-import { Card, CardHeader, CardContent, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardHeader,
+  CardContent,
+  CardTitle,
+} from "../../components/ui/card.jsx";
 
 export default function Projects() {
   const projects = [
