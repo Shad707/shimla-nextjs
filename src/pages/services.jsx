@@ -5,7 +5,7 @@ import {
   CardContent,
   CardHeader,
   CardTitle,
-} from "../../components/ui/card.jsx";
+} from "@/components/ui/card.jsx";
 import {
   Wrench,
   Zap,

@@ -59,7 +59,7 @@ import {
   CardHeader,
   CardContent,
   CardTitle,
-} from "../../components/ui/card.jsx";
+} from "@/components/ui/card.jsx";
 
 export default function Projects() {
   const projects = [
