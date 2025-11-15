@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import { usePathname } from "next/navigation"; // to detect current page
+import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 
 export default function Header() {
@@ -18,18 +18,15 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-white/90 backdrop-blur shadow-sm">
-      <div className="container mx-auto px-6 py-4 flex items-center justify-between">
-        {/* Logo */}
+      <div className="container mx-auto px-6 py-3 flex items-center justify-between">
+        {/* Logo + Name (NO SLOGAN) */}
         <Link href="/" className="flex items-center gap-3">
-          <div className="w-10 h-10 bg-shimlaBlue rounded flex items-center justify-center text-white font-bold">
-            S
-          </div>
-          <div>
-            <h1 className="text-lg font-semibold">SHIMLA SARL</h1>
-            <p className="text-sm text-gray-500">
-              Sécurité • Fiabilité • Performance
-            </p>
-          </div>
+          <img
+            src="/images/logo.png"
+            alt="Logo Shimla SARL"
+            className="h-12 w-auto object-contain"
+          />
+          <h1 className="text-xl font-bold text-shimlaBlue">SHIMLA SARL</h1>
         </Link>
 
         {/* Desktop Nav */}
@@ -40,12 +37,11 @@ export default function Header() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`relative font-medium transition 
-                  ${
-                    isActive
-                      ? "text-shimlaBlue after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-shimlaBlue"
-                      : "text-gray-700 hover:text-shimlaBlue"
-                  }`}
+                className={`relative font-medium transition ${
+                  isActive
+                    ? "text-shimlaBlue after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-shimlaBlue"
+                    : "text-gray-700 hover:text-shimlaBlue"
+                }`}
               >
                 {item.label}
               </Link>
@@ -62,7 +58,7 @@ export default function Header() {
         </button>
       </div>
 
-      {/* Mobile Menu Drawer */}
+      {/* Mobile Drawer */}
       {isOpen && (
         <div className="md:hidden bg-white border-t shadow-inner">
           <nav className="flex flex-col p-4 space-y-3">
@@ -72,12 +68,12 @@ export default function Header() {
                 <Link
                   key={item.href}
                   href={item.href}
+                  onClick={() => setIsOpen(false)}
                   className={`py-2 font-medium transition ${
                     isActive
                       ? "text-shimlaBlue font-semibold"
                       : "text-gray-700 hover:text-shimlaBlue"
                   }`}
-                  onClick={() => setIsOpen(false)}
                 >
                   {item.label}
                 </Link>

@@ -142,11 +142,11 @@ export default function WhyShimla() {
               <div className="w-3 h-3 bg-shimlaBlue rounded-full mt-2"></div>
               <div>
                 <h3 className="font-semibold text-lg text-gray-800">
-                  Sécurité et conformité
+                  Expertise multidisciplinaire
                 </h3>
                 <p className="text-gray-600">
-                  Toutes nos réalisations respectent les normes internationales
-                  les plus strictes.
+                  Pour des projets clés en main, du diagnostic à la maintenance
+                  corrective et préventive.
                 </p>
               </div>
             </li>
@@ -154,11 +154,11 @@ export default function WhyShimla() {
               <div className="w-3 h-3 bg-shimlaBlue rounded-full mt-2"></div>
               <div>
                 <h3 className="font-semibold text-lg text-gray-800">
-                  Équipe expérimentée
+                  Respect strict des normes électriques
                 </h3>
                 <p className="text-gray-600">
-                  Nos ingénieurs et techniciens apportent des années
-                  d’expérience et du matériel fiable.
+                  Nous nous assurons de respecter les règles et normes de
+                  sécurité pour garantir la pérennité de vos installations.
                 </p>
               </div>
             </li>
@@ -166,10 +166,21 @@ export default function WhyShimla() {
               <div className="w-3 h-3 bg-shimlaBlue rounded-full mt-2"></div>
               <div>
                 <h3 className="font-semibold text-lg text-gray-800">
-                  Interventions rapides
+                  Réduction des coûts
                 </h3>
                 <p className="text-gray-600">
-                  Un service réactif partout en RDC.
+                  Grâce à des solutions optimisées et durables
+                </p>
+              </div>
+            </li>
+            <li className="flex items-start gap-4">
+              <div className="w-3 h-3 bg-shimlaBlue rounded-full mt-2"></div>
+              <div>
+                <h3 className="font-semibold text-lg text-gray-800">
+                  Équipe certifiée et qualifiée
+                </h3>
+                <p className="text-gray-600">
+                  Toujours à la pointe des nouvelles technologies.
                 </p>
               </div>
             </li>
