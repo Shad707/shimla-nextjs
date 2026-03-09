@@ -24,7 +24,7 @@ export default function Header() {
           <img
             src="/images/logo.png"
             alt="Logo Shimla SARL"
-            className="h-12 w-auto object-contain"
+            className="h-16 w-auto object-contain"
           />
           <h1 className="text-xl font-bold text-shimlaBlue">SHIMLA SARL</h1>
         </Link>

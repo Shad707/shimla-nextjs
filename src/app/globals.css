@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --nav-height: 80px;
+  --brand-dark: #0b1220;
+  --brand-card: rgba(255, 255, 255, 0.04);
+  --brand-stroke: rgba(255, 255, 255, 0.12);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased;
+  background: radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.05), transparent 25%),
+    radial-gradient(circle at 80% 0%, rgba(14, 165, 233, 0.08), transparent 22%),
+    #060a12;
+}
+
+.container-wide {
+  @apply w-full max-w-6xl mx-auto px-6 lg:px-8;
+}
+
+.glass {
+  backdrop-filter: blur(16px);
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.shimmer {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(120deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.04));
+}
+
+.shimmer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    110deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.14) 20%,
+    transparent 40%
+  );
+  transform: translateX(-100%);
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+a:focus-visible,
+button:focus-visible {
+  @apply outline outline-2 outline-offset-2 outline-shimlaGold;
+}
