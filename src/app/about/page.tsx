@@ -1,5 +1,6 @@
 import CTASection from "@/components/CTASection";
 import HeroImage from "@/components/HeroImage";
+import { LucideIcon } from "lucide-react";
 import { CONTACT_EMAIL, CONTACT_PHONE } from "@/lib/constants";
 import { Shield, CheckCircle, Sparkles } from "lucide-react";
 
@@ -97,7 +98,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="container-wide space-y-10">
+      {/* <section className="container-wide space-y-10">
         <div>
           <p className="text-sm uppercase tracking-[0.3em] text-shimlaGold">
             Valeurs
@@ -127,7 +128,7 @@ export default function AboutPage() {
             );
           })}
         </div>
-      </section>
+      </section> */}
 
       {/* <section className="container-wide grid lg:grid-cols-2 gap-8">
         <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
