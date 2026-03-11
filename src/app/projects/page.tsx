@@ -12,29 +12,29 @@ const projects = [
     image: "/images/project3.jpg",
   },
   {
-    title: "Rénovation d'une residence",
-    location: "Kolwezi",
+    title: "Rénovation d'une residence privée",
+    location: "Lubumbashi",
     category: "Construction",
     image: "/images/project2.jpg",
   },
   {
-    title: "Fourniture d’équipements - salle des fêtes",
-    location: "Likasi",
+    title: "Fourniture d’équipements - salle de fête",
+    location: "Kipushi",
     category: "Fourniture",
     image: "/images/dubai.jpg",
   },
-  {
-    title: "Maintenance poste et distribution",
-    location: "Kolwezi",
-    category: "Électrique",
-    image: "/images/project4.jpg",
-  },
-  {
-    title: "Sécurisation site industriel",
-    location: "Likasi",
-    category: "Sécurité",
-    image: "/images/project5.jpg",
-  },
+  // {
+  //   title: "Maintenance poste et distribution",
+  //   location: "Kolwezi",
+  //   category: "Électrique",
+  //   image: "/images/project4.jpg",
+  // },
+  // {
+  //   title: "Sécurisation site industriel",
+  //   location: "Likasi",
+  //   category: "Sécurité",
+  //   image: "/images/project5.jpg",
+  // },
 ];
 
 const categories = [
@@ -42,7 +42,7 @@ const categories = [
   "Électrique",
   "Construction",
   "Fourniture",
-  "Sécurité",
+  // "Sécurité",
 ];
 
 export default function ProjectsPage() {
@@ -63,8 +63,7 @@ export default function ProjectsPage() {
           Projets livrés et interventions
         </h1>
         <p className="text-lg text-slate-300 max-w-3xl">
-          Des sites miniers aux bâtiments administratifs, nos équipes livrent
-          des solutions conformes et sécurisées.
+          Nos équipes offrent des solutions conformes et sécurisées.
         </p>
       </section>
 

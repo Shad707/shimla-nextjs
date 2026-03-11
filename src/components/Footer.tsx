@@ -17,18 +17,17 @@ export default function Footer() {
             SHIMLA SARL
           </p>
           <p className="text-2xl font-semibold text-white">
-            Sécurité, Fiabilité et Performance pour vos projets industriels.
+            Sécurité, Fiabilité et Performance pour vos projets.
           </p>
           <p className="text-sm text-slate-400">
-            Basés en République Démocratique du Congo, nous accompagnons mines,
-            industries et bâtiments avec des solutions conformes, durables et maîtrisées.
+            Basés en République Démocratique du Congo, nous vous accompagnons
+            dans vos projets, avec des solutions conformes, durables et
+            maîtrisées.
           </p>
         </div>
 
         <div>
-          <h3 className="text-sm font-semibold text-white mb-3">
-            Navigation
-          </h3>
+          <h3 className="text-sm font-semibold text-white mb-3">Navigation</h3>
           <div className="space-y-2">
             {footerLinks.map((link) => (
               <Link
@@ -43,15 +42,16 @@ export default function Footer() {
         </div>
 
         <div>
-          <h3 className="text-sm font-semibold text-white mb-3">
-            Contact
-          </h3>
+          <h3 className="text-sm font-semibold text-white mb-3">Contact</h3>
           <div className="space-y-3 text-sm text-slate-300">
             <div className="space-y-1">
               <p className="text-xs uppercase tracking-[0.2em] text-slate-400">
                 Email
               </p>
-              <Link href={`mailto:${CONTACT_EMAIL}`} className="hover:text-white block">
+              <Link
+                href={`mailto:${CONTACT_EMAIL}`}
+                className="hover:text-white block"
+              >
                 {CONTACT_EMAIL}
               </Link>
             </div>
@@ -59,7 +59,10 @@ export default function Footer() {
               <p className="text-xs uppercase tracking-[0.2em] text-slate-400">
                 Téléphone
               </p>
-              <Link href={`tel:${CONTACT_PHONE}`} className="hover:text-white block">
+              <Link
+                href={`tel:${CONTACT_PHONE}`}
+                className="hover:text-white block"
+              >
                 {CONTACT_PHONE}
               </Link>
             </div>

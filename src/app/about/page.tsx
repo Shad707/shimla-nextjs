@@ -6,17 +6,17 @@ import { Shield, CheckCircle, Sparkles } from "lucide-react";
 const values = [
   {
     title: "Sécurité",
-    text: "Procédures HSE strictes, consignations et formations terrain continues.",
+    //text: "Procédures HSE strictes, consignations et formations terrain continues.",
     icon: Shield,
   },
   {
     title: "Fiabilité",
-    text: "Livrables conformes, contrôle qualité et maintenance planifiée.",
+    //text: "Livrables conformes, contrôle qualité et maintenance planifiée.",
     icon: CheckCircle,
   },
   {
     title: "Innovation",
-    text: "Solutions modernes, digitalisation des suivis et optimisations énergétiques.",
+    //text: "Solutions modernes, digitalisation des suivis et optimisations énergétiques.",
     icon: Sparkles,
   },
 ];
@@ -30,13 +30,23 @@ export default function AboutPage() {
             À propos
           </p>
           <h1 className="text-4xl font-semibold text-white">
-            SHIMLA SARL, partenaire industriel en République Démocratique du
-            Congo
+            Shimla SARL – votre partenaire de confiance pour des projets solides
+            et sécurisés.
           </h1>
           <p className="text-lg text-slate-300">
-            Ingénierie, exécution et maintenance pour infrastructures
-            électriques, construction et équipements. Une équipe terrain
-            habituée aux sites critiques et aux exigences de sécurité.
+            Shimla SARL est une entreprise basée en République démocratique du
+            Congo, spécialisée dans l’installation et la maintenance électrique,
+            la construction et la fourniture d’équipements. Nous nous engageons
+            à offrir des solutions fiables, durables et adaptées aux besoins de
+            nos clients, qu’il s’agisse de projets résidentiels, commerciaux ou
+            industriels.
+          </p>
+
+          <p className="text-lg text-slate-300">
+            Grâce à une équipe qualifiée et expérimentée, Shimla SARL allie
+            professionnalisme, sécurité et innovation pour garantir la réussite
+            de chaque projet. Notre priorité est de transformer vos idées en
+            réalisations concrètes, tout en assurant une satisfaction totale
           </p>
           <div className="text-sm text-slate-300 space-y-1">
             <p>Email : {CONTACT_EMAIL}</p>
@@ -46,7 +56,7 @@ export default function AboutPage() {
         </div>
         <div className="h-[500px]">
           <HeroImage
-            src="/images/project4.jpg"
+            src="/images/project06.jpg"
             alt="Équipe SHIMLA sur site"
             sizes="(min-width: 1024px) 560px, 90vw"
             priority={false}
@@ -61,26 +71,28 @@ export default function AboutPage() {
           <p className="text-sm uppercase tracking-[0.3em] text-shimlaGold">
             Mission
           </p>
-          <h2 className="text-2xl font-semibold text-white mt-2">
+          {/* <h2 className="text-2xl font-semibold text-white mt-2">
             Livrer des infrastructures fiables
-          </h2>
+          </h2> */}
           <p className="text-slate-300 mt-3">
-            Concevoir, exécuter et maintenir des systèmes électriques et des
-            ouvrages conformes aux standards internationaux, en garantissant
-            sécurité et disponibilité.
+            Offrir des solutions complètes et fiables dans l’installation et
+            maintenance électrique, la construction et la fourniture
+            d’équipements, en mettant l’accent sur la qualité, la sécurité et la
+            satisfaction client.
           </p>
         </div>
         <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
           <p className="text-sm uppercase tracking-[0.3em] text-shimlaGold">
             Vision
           </p>
-          <h2 className="text-2xl font-semibold text-white mt-2">
+          {/* <h2 className="text-2xl font-semibold text-white mt-2">
             Référence industrielle en Afrique centrale
-          </h2>
+          </h2> */}
           <p className="text-slate-300 mt-3">
-            Être l’acteur de confiance pour les sites miniers, industriels et
-            institutionnels, avec une qualité d’exécution premium et des
-            interventions rapides.
+            Devenir une référence en République démocratique du Congo pour les
+            projets électriques et de construction, en innovant constamment et
+            en contribuant au développement durable et à la modernisation des
+            infrastructures.
           </p>
         </div>
       </section>
@@ -117,7 +129,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="container-wide grid lg:grid-cols-2 gap-8">
+      {/* <section className="container-wide grid lg:grid-cols-2 gap-8">
         <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
           <p className="text-sm uppercase tracking-[0.3em] text-shimlaGold">
             Engagement sécurité & conformité
@@ -142,7 +154,7 @@ export default function AboutPage() {
             <li>• Planification rigoureuse et reporting client régulier.</li>
           </ul>
         </div>
-      </section>
+      </section> */}
 
       <CTASection
         title="Besoin d’un partenaire fiable en électricité et construction ?"

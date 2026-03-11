@@ -14,61 +14,74 @@ const HERO_BLUR =
   "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJhZGlhbEdyYWRpZW50IGlkPSJnIiBjeD0iMjAiIGN5PSIyMCIgcj0iMjAiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiBncmFkaWVudFRyYW5zZm9ybT0icm90YXRlKDU5KSI+PHN0b3Agc3RvcC1jb2xvcj0iIzE3Mjg0NCIgLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwNjEwMjAiIC8+PC9yYWRpYWxHcmFkaWVudD48cmVjdCB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIGZpbGw9InVybCgjZykiIC8+PC9zdmc+";
 
 const stats = [
-  {
-    title: "Expertise technique",
-    text: "Ingénierie, mise en service et maintenance sur sites critiques.",
-  },
-  {
-    title: "Normes de sécurité strictes",
-    text: "Procédures HSE, consignations et contrôles QA/QC documentés.",
-  },
-  {
-    title: "Interventions rapides",
-    text: "Équipes mobilisables avec stocks critiques pour réduire les arrêts.",
-  },
-  {
-    title: "Couverture nationale",
-    text: "Interventions planifiées en République Démocratique du Congo.",
-  },
+  // {
+  //   title: "Expertise technique",
+  //   text: "Ingénierie, mise en service et maintenance sur sites critiques.",
+  // },
+  // {
+  //   title: "Normes de sécurité strictes",
+  //   text: "Procédures HSE, consignations et contrôles QA/QC documentés.",
+  // },
+  // {
+  //   title: "Interventions rapides",
+  //   text: "Équipes mobilisables avec stocks critiques pour réduire les arrêts.",
+  // },
+  // {
+  //   title: "Couverture nationale",
+  //   text: "Interventions planifiées en République Démocratique du Congo.",
+  // },
 ];
 
 const services = [
   {
     title: "Installation & Maintenance Électrique",
     description:
-      "Études, installations et mises en service conformes aux normes industrielles et minières.",
+      "Études, installations et mises en service conformes aux normes.",
   },
   {
-    title: "Construction & Génie Civil",
+    title: "Construction",
     description:
-      "Structures, fondations et enveloppes de bâtiments avec pilotage rigoureux des délais.",
+      " Réalisation de projets résidentiels, commerciaux et industriels, rénovation, et suivi complet de chantier pour des ouvrages solides et durables.",
   },
   {
     title: "Fourniture d’Équipements",
     description:
-      "Approvisionnement contrôlé en matériels électriques et industriels de grade professionnel.",
+      "Approvisionnement d’équipements électriques, matériels de construction et autres fournitures de qualité, adaptés à tous vos besoins..",
   },
   {
-    title: "Maintenance Industrielle",
-    description: "Plan de maintenance, dépannage 24/7, fiabilisation et disponibilité maximale.",
-  },
-  {
-    title: "Sécurité & Conformité",
+    title: "Maintenance Électrique",
     description:
-      "Procédures HSE, consignations, audits de conformité et formations terrain.",
+      "Maintenance électrique préventive et corrective pour assurer sécurité et continuité des installations.",
   },
-  {
-    title: "Études & Ingénierie",
-    description:
-      "Dimensionnements, schémas, modélisations et dossiers techniques prêts pour exécution.",
-  },
+  // {
+  //   title: "Sécurité & Conformité",
+  //   description:
+  //     "Procédures HSE, consignations, audits de conformité et formations terrain.",
+  // },
+  // {
+  //   title: "Études & Ingénierie",
+  //   description:
+  //     "Dimensionnements, schémas, modélisations et dossiers techniques prêts pour exécution.",
+  // },
 ];
 
 const sectors = [
-  { title: "Mines", text: "Alimentation, postes, distribution, sécurisation des sites." },
-  { title: "Industrie", text: "Process, automates, continuité énergétique et supervision." },
-  { title: "Bâtiments", text: "Électrification intégrale, sûreté, CVC et réseaux faibles." },
-  { title: "Institutions", text: "Centres hospitaliers, universités, infrastructures publiques." },
+  {
+    title: "Mines",
+    text: "Alimentation, postes, distribution, sécurisation des sites.",
+  },
+  {
+    title: "Industrie",
+    text: "Process, automates, continuité énergétique et supervision.",
+  },
+  {
+    title: "Bâtiments",
+    text: "Électrification intégrale, sûreté, CVC et réseaux faibles.",
+  },
+  {
+    title: "Institutions",
+    text: "Centres hospitaliers, universités, infrastructures publiques.",
+  },
 ];
 
 const process = [
@@ -82,54 +95,54 @@ const process = [
   },
   {
     title: "Exécution",
-    text: "Chantiers sécurisés, contrôles QA/QC continus.",
+    text: "réalisation des solutions avec rigueur pour des installations fiables et sécurisées.",
   },
-  {
-    title: "Maintenance",
-    text: "Suivi, astreintes et améliorations continues.",
-  },
+  // {
+  //   title: "Maintenance",
+  //   text: "Suivi, astreintes et améliorations continues.",
+  // },
 ];
 
 const projects = [
   {
-    title: "Installation électrique industrielle",
+    title: "Installation électrique d'une résidence privée",
     location: "Lubumbashi",
     category: "Électrique",
-    image: "/images/project1.jpg",
+    image: "/images/project3.jpg",
   },
   {
-    title: "Construction bâtiment administratif",
-    location: "Kolwezi",
+    title: "Rénovation d'une residence privée",
+    location: "Lubumbashi",
     category: "Construction",
     image: "/images/project2.jpg",
   },
   {
-    title: "Fourniture d’équipements électriques",
-    location: "Likasi",
+    title: "Fourniture d’équipements - salle de fête",
+    location: "Kipushi",
     category: "Fourniture",
-    image: "/images/project3.jpg",
+    image: "/images/dubai.jpg",
   },
 ];
 
 const testimonials = [
-  {
-    quote:
-      "Délais tenus et procédure HSE irréprochable. Équipe réactive sur site minier.",
-    name: "A. Kabila",
-    role: "Responsable maintenance, site cuivre",
-  },
-  {
-    quote:
-      "Pilotage chantier exemplaire, communication claire et livrables conformes.",
-    name: "J. Mukendi",
-    role: "Directeur travaux, génie civil",
-  },
-  {
-    quote:
-      "Support technique fiable, pièces disponibles et interventions planifiées.",
-    name: "S. Tshibasu",
-    role: "Chef d’usine, industrie manufacturière",
-  },
+  // {
+  //   quote:
+  //     "Délais tenus et procédure HSE irréprochable. Équipe réactive sur site minier.",
+  //   name: "A. Kabila",
+  //   role: "Responsable maintenance, site cuivre",
+  // },
+  // {
+  //   quote:
+  //     "Pilotage chantier exemplaire, communication claire et livrables conformes.",
+  //   name: "J. Mukendi",
+  //   role: "Directeur travaux, génie civil",
+  // },
+  // {
+  //   quote:
+  //     "Support technique fiable, pièces disponibles et interventions planifiées.",
+  //   name: "S. Tshibasu",
+  //   role: "Chef d’usine, industrie manufacturière",
+  // },
 ];
 
 const faqs = [
@@ -139,11 +152,13 @@ const faqs = [
   },
   {
     question: "Intervenez-vous en République Démocratique du Congo ?",
-    answer: "Oui, avec des interventions planifiées dans toute la République Démocratique du Congo.",
+    answer:
+      "Oui, avec des interventions planifiées dans toute la République Démocratique du Congo.",
   },
   {
     question: "Comment garantissez-vous la conformité ?",
-    answer: "Procédures HSE, consignations, contrôles QA/QC et documentation complète.",
+    answer:
+      "Procédures HSE, consignations, contrôles QA/QC et documentation complète.",
   },
   {
     question: "Gérez-vous la maintenance préventive ?",
@@ -151,11 +166,13 @@ const faqs = [
   },
   {
     question: "Pouvez-vous travailler en urgence ?",
-    answer: "Équipe d’intervention rapide avec stock critique pour rétablir la production.",
+    answer:
+      "Équipe d’intervention rapide avec stock critique pour rétablir la production.",
   },
   {
     question: "Fournissez-vous les équipements ?",
-    answer: "Nous sourçons et livrons les matériels certifiés adaptés à votre projet.",
+    answer:
+      "Nous sourçons et livrons les matériels certifiés adaptés à votre projet.",
   },
 ];
 
@@ -180,7 +197,7 @@ export default function Home() {
               transition={{ duration: 0.7 }}
               className="text-4xl md:text-5xl lg:text-6xl font-semibold text-white leading-tight"
             >
-              Ingénierie et maintenance d&apos;infrastructures électriques
+              Votre partenaire en électricité, construction et équipements
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -188,9 +205,10 @@ export default function Home() {
               transition={{ delay: 0.1, duration: 0.7 }}
               className="text-xl text-slate-200 max-w-2xl"
             >
-              Des solutions fiables pour les infrastructures industrielles en
-              République Démocratique du Congo, avec une exigence absolue de
-              sécurité et de conformité.
+              Shimla SARL offre des solutions fiables et innovantes dans
+              l’installation électrique, la construction et la fourniture
+              d’équipements, avec un engagement total pour la qualité et
+              lasécurité.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -220,7 +238,9 @@ export default function Home() {
               </div>
               <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
                 <p className="text-sm text-slate-400">Implantation</p>
-                <p className="text-lg text-white">République Démocratique du Congo</p>
+                <p className="text-lg text-white">
+                  République Démocratique du Congo
+                </p>
               </div>
             </div>
           </div>
@@ -244,7 +264,7 @@ export default function Home() {
       </section>
 
       {/* Trust strip */}
-      <section className="container-wide space-y-6">
+      {/* <section className="container-wide space-y-6">
         <div className="glass rounded-3xl px-6 py-6 border border-white/10">
           <Stats stats={stats} />
           <div className="mt-6 flex flex-wrap items-center gap-3 text-xs uppercase tracking-[0.25em] text-slate-400">
@@ -272,7 +292,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Services */}
       <section className="container-wide space-y-6" id="services">
@@ -281,12 +301,13 @@ export default function Home() {
             <p className="text-sm uppercase tracking-[0.3em] text-shimlaGold">
               Services
             </p>
-            <h2 className="text-3xl font-semibold text-white">
+            {/* <h2 className="text-3xl font-semibold text-white">
               6 expertises clés pour vos opérations
-            </h2>
-            <p className="text-slate-300">
-              Des équipes terrain, des procédures HSE strictes et des livrables précis.
-            </p>
+            </h2> */}
+            {/* <p className="text-slate-300">
+              Des équipes terrain, des procédures HSE strictes et des livrables
+              précis.
+            </p> */}
           </div>
           <Link
             href="/services"
@@ -297,13 +318,17 @@ export default function Home() {
         </div>
         <div className="grid md:grid-cols-2 gap-8 items-stretch">
           {services.map((service) => (
-            <ServiceCard key={service.title} title={service.title} description={service.description} />
+            <ServiceCard
+              key={service.title}
+              title={service.title}
+              description={service.description}
+            />
           ))}
         </div>
       </section>
 
       {/* Sectors */}
-      <section className="container-wide space-y-6">
+      {/* <section className="container-wide space-y-6">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div>
             <p className="text-sm uppercase tracking-[0.3em] text-shimlaGold">
@@ -327,7 +352,7 @@ export default function Home() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* Process */}
       <section className="container-wide space-y-6">
@@ -400,7 +425,7 @@ export default function Home() {
       </section>
 
       {/* Testimonials */}
-      <section className="container-wide space-y-6">
+      {/* <section className="container-wide space-y-6">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div>
             <p className="text-sm uppercase tracking-[0.3em] text-shimlaGold">
@@ -416,7 +441,7 @@ export default function Home() {
             <TestimonialCard key={item.name} {...item} />
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* FAQ */}
       <section className="container-wide space-y-6">

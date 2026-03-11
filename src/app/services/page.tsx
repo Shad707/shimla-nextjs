@@ -11,21 +11,21 @@ import Link from "next/link";
 
 const serviceDetails = [
   {
-    title: "Installation & maintenance ",
+    title: "Installation & maintenance électrique",
     description:
-      "Études, câblage, postes, armoires, tests et mises en service conformes.",
+      "Câblage,Études, maintenance préventive et corrective, mise aux normes et optimisation des installations pour garantir sécurité et fiabilité.",
     icon: Wrench,
   },
   {
-    title: "Construction & génie civil",
+    title: "Construction",
     description:
-      "Structures, enveloppe, réseaux et sécurité des bâtiments industriels.",
+      "Réalisation de projets résidentiels, commerciaux et industriels, rénovation, et suivi complet de chantier pour des ouvrages solides et durables.",
     icon: HardHat,
   },
   {
     title: "Fourniture d’équipements",
     description:
-      "Approvisionnement contrôlé en matériels électriques et industriels certifiés.",
+      "Approvisionnement d’équipements électriques, matériels de construction et autres fournitures de qualité, adaptés à tous vos besoins.",
     icon: Box,
   },
   {
