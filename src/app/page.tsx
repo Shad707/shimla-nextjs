@@ -41,12 +41,12 @@ const services = [
   {
     title: "Construction",
     description:
-      " Réalisation de projets résidentiels, commerciaux et industriels, rénovation, et suivi complet de chantier pour des ouvrages solides et durables.",
+      "Réalisation de projets résidentiels, commerciaux et industriels, rénovation, et suivi complet de chantier pour des ouvrages solides et durables.",
   },
   {
     title: "Fourniture d’Équipements",
     description:
-      "Approvisionnement d’équipements électriques, matériels de construction et autres fournitures de qualité, adaptés à tous vos besoins..",
+      "Approvisionnement d’équipements électriques, matériels de construction et autres fournitures de qualité, adaptés à tous vos besoins.",
   },
   {
     title: "Maintenance Électrique",
@@ -95,7 +95,7 @@ const process = [
   },
   {
     title: "Exécution",
-    text: "réalisation des solutions avec rigueur pour des installations fiables et sécurisées.",
+    text: "Réalisation des solutions avec rigueur pour des installations fiables et sécurisées.",
   },
   // {
   //   title: "Maintenance",
@@ -111,7 +111,7 @@ const projects = [
     image: "/images/project3.jpg",
   },
   {
-    title: "Rénovation d'une residence privée",
+    title: "Rénovation d'une résidence privée",
     location: "Lubumbashi",
     category: "Construction",
     image: "/images/project2.jpg",
@@ -151,9 +151,9 @@ const faqs = [
     answer: "Sous 48h pour une demande standard. Audit terrain si nécessaire.",
   },
   {
-    question: "Intervenez-vous en République Démocratique du Congo ?",
+    question: "Intervenez-vous en République démocratique du Congo ?",
     answer:
-      "Oui, avec des interventions planifiées dans toute la République Démocratique du Congo.",
+      "Oui, avec des interventions planifiées dans toute la République démocratique du Congo.",
   },
   {
     question: "Comment garantissez-vous la conformité ?",
@@ -203,12 +203,12 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1, duration: 0.7 }}
-              className="text-xl text-slate-200 max-w-2xl"
+              className="text-xl text-slate-200 max-w-2xl text-justify"
             >
               Shimla SARL offre des solutions fiables et innovantes dans
               l’installation électrique, la construction et la fourniture
               d’équipements, avec un engagement total pour la qualité et
-              lasécurité.
+              la sécurité.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -239,7 +239,7 @@ export default function Home() {
               <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
                 <p className="text-sm text-slate-400">Implantation</p>
                 <p className="text-lg text-white">
-                  République Démocratique du Congo
+                  République démocratique du Congo
                 </p>
               </div>
             </div>

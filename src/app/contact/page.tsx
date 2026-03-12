@@ -13,7 +13,7 @@ export default function ContactPage() {
         <h1 className="text-4xl font-semibold text-white">
           Discutons de votre chantier ou de votre maintenance
         </h1>
-        <p className="text-lg text-slate-300 max-w-3xl">
+        <p className="text-lg text-slate-300 max-w-3xl text-justify">
           Un chef de projet vous répond sous 24h avec un premier cadrage (scope,
           planning, risques) et une proposition de visite de site.
         </p>
@@ -45,7 +45,7 @@ export default function ContactPage() {
               <p className="text-xs uppercase tracking-[0.2em] text-slate-400">
                 Adresse
               </p>
-              <p className="text-white">République Démocratique du Congo</p>
+              <p className="text-white">République démocratique du Congo</p>
             </div>
             <Link
               href={WHATSAPP_LINK}

@@ -12,7 +12,7 @@ const projects = [
     image: "/images/project3.jpg",
   },
   {
-    title: "Rénovation d'une residence privée",
+    title: "Rénovation d'une résidence privée",
     location: "Lubumbashi",
     category: "Construction",
     image: "/images/project2.jpg",

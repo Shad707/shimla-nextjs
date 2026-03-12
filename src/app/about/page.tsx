@@ -7,17 +7,17 @@ import { Shield, CheckCircle, Sparkles } from "lucide-react";
 const values = [
   {
     title: "Sécurité",
-    //text: "Procédures HSE strictes, consignations et formations terrain continues.",
+    text: "Procédures HSE strictes, consignations et formations terrain continues.",
     icon: Shield,
   },
   {
     title: "Fiabilité",
-    //text: "Livrables conformes, contrôle qualité et maintenance planifiée.",
+    text: "Livrables conformes, contrôle qualité et maintenance planifiée.",
     icon: CheckCircle,
   },
   {
     title: "Innovation",
-    //text: "Solutions modernes, digitalisation des suivis et optimisations énergétiques.",
+    text: "Solutions modernes, digitalisation des suivis et optimisations énergétiques.",
     icon: Sparkles,
   },
 ];
@@ -34,7 +34,7 @@ export default function AboutPage() {
             Shimla SARL – votre partenaire de confiance pour des projets solides
             et sécurisés.
           </h1>
-          <p className="text-lg text-slate-300">
+          <p className="text-lg text-slate-300 text-justify">
             Shimla SARL est une entreprise basée en République démocratique du
             Congo, spécialisée dans l’installation et la maintenance électrique,
             la construction et la fourniture d’équipements. Nous nous engageons
@@ -43,16 +43,16 @@ export default function AboutPage() {
             industriels.
           </p>
 
-          <p className="text-lg text-slate-300">
+          <p className="text-lg text-slate-300 text-justify">
             Grâce à une équipe qualifiée et expérimentée, Shimla SARL allie
             professionnalisme, sécurité et innovation pour garantir la réussite
             de chaque projet. Notre priorité est de transformer vos idées en
-            réalisations concrètes, tout en assurant une satisfaction totale
+            réalisations concrètes, tout en assurant une satisfaction totale...
           </p>
           <div className="text-sm text-slate-300 space-y-1">
             <p>Email : {CONTACT_EMAIL}</p>
             <p>Téléphone : {CONTACT_PHONE}</p>
-            <p>Implantation : République Démocratique du Congo.</p>
+            <p>Implantation : République démocratique du Congo.</p>
           </div>
         </div>
         <div className="h-[500px]">
@@ -98,7 +98,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* <section className="container-wide space-y-10">
+      <section className="container-wide space-y-10">
         <div>
           <p className="text-sm uppercase tracking-[0.3em] text-shimlaGold">
             Valeurs
@@ -121,14 +121,12 @@ export default function AboutPage() {
                 <p className="text-lg font-semibold text-white">
                   {value.title}
                 </p>
-                <p className="text-sm text-slate-300 leading-relaxed">
-                  {value.text}
-                </p>
+                {/* Descriptions intentionally omitted per request */}
               </div>
             );
           })}
         </div>
-      </section> */}
+      </section>
 
       {/* <section className="container-wide grid lg:grid-cols-2 gap-8">
         <div className="rounded-3xl border border-white/10 bg-white/5 p-6">

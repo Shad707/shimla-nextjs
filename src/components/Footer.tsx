@@ -20,7 +20,7 @@ export default function Footer() {
             Sécurité, Fiabilité et Performance pour vos projets.
           </p>
           <p className="text-sm text-slate-400">
-            Basés en République Démocratique du Congo, nous vous accompagnons
+            Basés en République démocratique du Congo, nous vous accompagnons
             dans vos projets, avec des solutions conformes, durables et
             maîtrisées.
           </p>
@@ -66,7 +66,7 @@ export default function Footer() {
                 {CONTACT_PHONE}
               </Link>
             </div>
-            <p className="text-slate-400">République Démocratique du Congo</p>
+            <p className="text-slate-400">République démocratique du Congo</p>
           </div>
           <Link
             href="/contact"

@@ -15,11 +15,11 @@ const manrope = Manrope({
 export const metadata: Metadata = {
   title: "SHIMLA SARL | Sécurité, Fiabilité, Performance",
   description:
-    "Solutions industrielles premium en électricité, construction et équipements en République Démocratique du Congo. Sécurité, fiabilité et performance pour vos projets.",
+    "Solutions industrielles premium en électricité, construction et équipements en République démocratique du Congo. Sécurité, fiabilité et performance pour vos projets.",
   openGraph: {
     title: "SHIMLA SARL | Sécurité, Fiabilité, Performance",
     description:
-      "Solutions industrielles premium en électricité, construction et équipements en République Démocratique du Congo.",
+      "Solutions industrielles premium en électricité, construction et équipements en République démocratique du Congo.",
     url: "https://www.shimlasarl.com",
     siteName: "SHIMLA SARL",
     locale: "fr_FR",
