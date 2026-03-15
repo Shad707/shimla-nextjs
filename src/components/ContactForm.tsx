@@ -5,12 +5,10 @@ import { useState } from "react";
 type FormState = "idle" | "loading" | "success";
 
 const services = [
-  "Installation & maintenance électrique",
-  "Construction & génie civil",
-  "Fourniture d’équipements",
-  "Maintenance industrielle",
-  "Sécurité & conformité",
-  "Études & ingénierie",
+  "Installation Électrique",
+  "Construction",
+  "Fourniture d’Équipements",
+  "Maintenance Électrique",
 ];
 
 export default function ContactForm() {

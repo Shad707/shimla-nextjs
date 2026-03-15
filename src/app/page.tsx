@@ -34,7 +34,7 @@ const stats = [
 
 const services = [
   {
-    title: "Installation & Maintenance Électrique",
+    title: "Installation Électrique",
     description:
       "Études, installations et mises en service conformes aux normes.",
   },
@@ -207,8 +207,8 @@ export default function Home() {
             >
               Shimla SARL offre des solutions fiables et innovantes dans
               l’installation électrique, la construction et la fourniture
-              d’équipements, avec un engagement total pour la qualité et
-              la sécurité.
+              d’équipements, avec un engagement total pour la qualité et la
+              sécurité.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
